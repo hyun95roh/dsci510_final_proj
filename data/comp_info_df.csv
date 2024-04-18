@@ -1,0 +1,614 @@
+,company_size,company_id,company_name,short_name,industry
+0,large,1190,Booking.com,bookingcom,"Consumer Goods & Services,Technology,Travel and Hospitality"
+0,large,15000203,Circle,circle,Financial Services
+0,large,1103,Philips,philips,"Healthcare,Technology"
+0,large,15000190,SpaceX,spacex,"Information Technology,Manufacturing"
+0,medium,15000202,GlossGenius,glossgenius,Software
+0,large,15000187,Sotheby's,sothebys,Arts & Music
+0,large,11895,Lyft,lyft,Technology
+0,large,15000197,Rent the Runway,renttherunway,Retail
+0,large,15000188,Flexport,flexport,Information Technology
+0,large,15000199,Riot Games,riotgames,Entertainment & Gaming
+0,large,15000277,BD,bd,Healthcare
+0,large,15000230,Alteryx,alteryx,Information Technology
+0,large,15000305,Ensono,ensono,"Consulting,Information Technology,Technology"
+0,large,15000266,TD Bank,tdbank,Financial Services
+0,large,15000289,Forcepoint,forcepoint,Technology
+0,large,15000234,The Port Authority of New York & New Jersey,theportauthorityofnewyorknewjersey,"Engineering,Government"
+0,large,15000240,Royal Bank of Canada,royalbankofcanada,Financial Services
+0,large,15000218,Diageo,diageo,"Consumer Goods & Services,Food & Beverage,Manufacturing"
+0,large,15000484,Advanced Technology Services,advancedtechnologyservices,"Manufacturing,Technology"
+0,large,15000215,Capital Group,capitalgroup,Financial Services
+0,large,15000273,Rentokil Terminix,rentokilterminix,Consumer Goods & Services
+0,large,15000272,National Security Agency (NSA),nationalsecurityagencynsa,Government
+0,medium,15000095,Appfire,appfire,"Software,Technology"
+0,medium,15000312,CompTIA,comptia,"Education,Information Technology,Non-Profit,Technology"
+0,large,15000255,PNC,pnc,Financial Services
+0,medium,15000153,Airbase,airbase,Fintech
+0,large,15000323,Data Annotation,dataannotation,"Data Science,Marketing,Media,Technology"
+0,large,15000145,The Maples Group,themaplesgroup,"Financial Services,Law"
+0,large,15000263,Howard Hughes,howardhughes,Real Estate & Construction
+0,large,12400,BNY Mellon,bnymellon,"Client Services,Financial Services,Technology"
+0,large,61,Uber,uber,Technology
+0,small,15000092,Andie,andie,Retail
+0,large,15000213,Enovis,enovis,Healthtech
+0,large,15000461,Edward Jones,edwardjones,Financial Services
+0,large,15000297,Arcesium,arcesium,"Financial Services,Fintech"
+0,large,15000158,CCC Intelligent Solutions,cccintelligentsolutions,"Consumer Goods & Services,Insurance,Software,Technology"
+0,small,15000127,Mendaera,mendaera,"Engineering,Healthcare,Healthtech,Technology"
+0,large,15000141,RevenueWell,revenuewell,"Healthtech,Marketing,Software"
+0,medium,15000227,Interos Inc,interosinc,Software
+0,large,15000299,Publicis Sapient,publicissapient,"Consulting,Technology"
+0,large,15000320,Fidelity Investments,fidelityinvestments,"Financial Services,Fintech"
+0,small,12038,PTFS,ptfs,Technology
+0,small,12326,Copper,copper,"Client Services,Technology"
+0,large,15000237,Mizuho,mizuho,Financial Services
+0,large,12243,First Republic Bank,firstrepublicbank,Financial Services
+0,large,15000231,Capgemini,capgemini,"Consulting,Information Technology"
+0,large,15000179,GE Aerospace,geaerospace,"Engineering,Manufacturing,Technology"
+0,medium,15000099,Q4,q4,Fintech
+0,large,15000241,Computershare,computershare,Financial Services
+0,large,15000287,ShiftKey,shiftkey,Technology
+0,medium,12223,MarketAxess,marketaxess,"Financial Services,Fintech,Technology,Trading"
+0,large,12130,Rapid7,rapid7,Technology
+0,large,15000468,Praesum Healthcare,praesumhealthcare,Healthcare
+0,large,15000088,GitLab,gitlab,"Software,Technology"
+0,large,15000168,The Hartford,thehartford,"Financial Services,Insurance"
+0,large,15000292,White & Case,whitecase,Law
+0,small,12095,ReachMobi Inc,reachmobiinc,Technology
+0,small,12364,Pfizer,pfizer,"Biotechnology,Manufacturing"
+0,large,12137,NTT DATA Services,nttdataservices,"Client Services,Consulting,Technology"
+0,large,15000246,PJM,pjm,Technology
+0,large,12194,Navy Federal Credit Union,navyfederalcreditunion,Financial Services
+0,large,15000306,48forty Solutions,48fortysolutions,"Consumer Goods & Services,Manufacturing,Retail"
+0,small,12311,Kustomer,kustomer,"Client Services,Technology"
+0,small,12312,Kraft Heinz,kraftheinz,Food & Beverage
+0,large,15000226,Selfhelp Community Services,selfhelpcommunityservices,"Non-Profit,Social Good"
+0,large,15000257,Henry Schein,henryschein,Healthcare
+0,small,12357,LVMH,lvmh,Consumer Goods & Services
+0,large,15000212,West Monroe,westmonroe,"Consulting,Technology"
+0,large,12234,Aircall,aircall,Technology
+0,small,12112,M2 Technologies,m2technologies,"Consulting,Manufacturing,Technology"
+0,small,12117,"Esusu Financial, Inc.",esusufinancialinc,"Financial Services,Technology"
+0,medium,11964,Robinhood,robinhood,"Financial Services,Technology"
+0,large,15000137,CN,cn,"Consumer Goods & Services,Engineering"
+0,medium,15000126,"TaxBit, Inc.",taxbitinc,"Accounting,Blockchain,Fintech,Technology"
+0,large,12128,Lockheed Martin,lockheedmartin,Technology
+0,medium,15000228,Morning Brew,morningbrew,Media
+0,medium,1202,Zynga,zynga,"Engineering,Entertainment & Gaming,Media,Technology"
+0,small,12316,Freshworks,freshworks,Technology
+0,large,15000248,World Wide Technology,worldwidetechnology,Information Technology
+0,small,12350,Hulu,hulu,"Entertainment & Gaming,Technology"
+0,large,15000254,Surescripts,surescripts,"Healthcare,Healthtech,Information Technology"
+0,medium,12392,Assurance,assurance,Insurance
+0,small,12363,Snap,snap,Social Media
+0,small,12054,FOSSA,fossa,Technology
+0,small,12373,Five to Nine,fivetonine,Technology
+0,large,15000172,CDW,cdw,Technology
+0,medium,15000100,Koalafi,koalafi,Fintech
+0,small,12056,Lighthouse Academies,lighthouseacademies,Education
+0,medium,15000465,Boldly,boldly,"Client Services,Technology"
+0,small,12271,Pilotly,pilotly,"Engineering,Entertainment & Gaming,Media,Technology"
+0,small,12344,AbbVie,abbvie,"Biotechnology,Healthcare"
+0,medium,906,Twitch,twitch,"Entertainment & Gaming,Technology"
+0,small,12204,Engine No. 1,engineno1,Financial Services
+0,small,12079,Wave,wave,"Arts & Music,Entertainment & Gaming,Media,Technology"
+0,medium,12110,BitGo,bitgo,"Blockchain,Financial Services,Fintech,Technology"
+0,medium,12268,Rock Content,rockcontent,"Advertising and Agencies,Client Services,Technology"
+0,small,12349,Vimeo,vimeo,"Entertainment & Gaming,Technology"
+0,medium,15000037,Arcadia,arcadia,"Healthcare,Software"
+0,large,15000471,Sonepar USA Inc,soneparusainc,Energy
+0,large,15000072,The Los Angeles Times,thelosangelestimes,"Media,Technology"
+0,small,12028,Reonomy,reonomy,Technology
+0,large,12389,Automattic,automattic,"Client Services,Engineering,Social Media,Technology"
+0,small,15000085,Relay,relay,"Fintech,Information Technology"
+0,medium,15000025,ATS Scientific Products,atsscientificproducts,"Biotechnology,Engineering,Healthcare,Manufacturing"
+0,small,11989,Creative Office Pavilion,creativeofficepavilion,Client Services
+0,large,15000195,Maven Clinic,mavenclinic,"Healthcare,Healthtech"
+0,large,15000307,Merrill,merrill,Financial Services
+0,large,11972,Aramark,aramark,Food & Beverage
+0,small,11987,Yubico,yubico,Technology
+0,medium,11828,Ironwood Pharmaceuticals,ironwoodpharmaceuticals,Biotechnology
+0,small,11988,Bluecore,bluecore,Technology
+0,medium,11901,Tandym Group,tandymgroup,"Client Services,Consulting"
+0,medium,12172,Famous Supply,famoussupply,Consumer Goods & Services
+0,large,11665,Howard Hughes Medical Institute,howardhughesmedicalinstitute,"Biotechnology,Education,Healthcare,Social Good"
+0,small,12303,NVIDIA,nvidia,Technology
+0,large,11753,Opendoor,opendoor,"Real Estate & Construction,Technology"
+0,small,12256,Bankjoy,bankjoy,"Engineering,Financial Services,Technology"
+0,large,11723,Equity Lifestyle Properties,equitylifestyleproperties,"Real Estate & Construction,Travel and Hospitality"
+0,large,15000242,ELC Beauty,elcbeauty,Consumer Goods & Services
+0,large,15000189,Rockstar Games,rockstargames,Entertainment & Gaming
+0,small,12005,Socure,socure,Technology
+0,large,11971,Labcorp,labcorp,"Healthcare,Healthtech,Pharmaceutical"
+0,medium,15000093,Storable,storable,"Software,Technology"
+0,large,15000282,Realtor.com,realtorcom,Real Estate & Construction
+0,large,11831,PwC,pwc,Consulting
+0,large,15000284,WWE,wwe,Entertainment & Gaming
+0,large,12261,Wind River,windriver,"Client Services,Engineering,Technology,Telecom"
+0,medium,12118,iQmetrix,iqmetrix,Technology
+0,large,15000467,Comparion Insurance Agency,comparioninsuranceagency,Insurance
+0,large,15000276,Santander US,santanderus,Financial Services
+0,small,12297,Reputation.com,reputationcom,Technology
+0,small,12342,McKesson,mckesson,
+0,small,12317,Flutterwave,flutterwave,"Financial Services,Technology"
+0,medium,12069,EcoVadis,ecovadis,"Consulting,Technology"
+0,large,15000103,Revature,revature,"Engineering,Information Technology,Software,Technology"
+0,large,15000229,"The TJX Companies, Inc.",thetjxcompaniesinc,Retail
+0,large,11802,Apple,apple,"Consumer Goods & Services,Information Technology,Software,Technology"
+0,medium,12393,NEXT Insurance,nextinsurance,"Insurance,Technology"
+0,large,566,UKG,ukg,Technology
+0,medium,12046,Chobani,chobani,Food & Beverage
+0,small,12308,MicroStrategy,microstrategy,Technology
+0,medium,12255,Bird,bird,"Engineering,Technology,Travel and Hospitality"
+0,large,12178,Mars Inc.,marsinc,"Consumer Goods & Services,Food & Beverage,Manufacturing"
+0,small,12305,Newchip,newchip,"Financial Services,Technology"
+0,large,15000233,Arapahoe County Sheriff's Office,arapahoecountysheriffsoffice,"Government,Law,Telecom"
+0,medium,1274,Viventium,viventium,"Client Services,Technology"
+0,large,15000260,Ginkgo Bioworks,ginkgobioworks,Biotechnology
+0,small,12093,CURLS,curls,Fashion and Beauty
+0,large,12013,Epic Insurance Brokers and Consultants,epicinsurancebrokersandconsultants,Insurance
+0,small,12136,Urban Bush Women,urbanbushwomen,Arts & Music
+0,large,12225,Sanofi U.S.,sanofius,Biotechnology
+0,large,15000161,CGI,cgi,"Consulting,Technology"
+0,large,15000142,ABeam Consulting,abeamconsulting,"Consulting,Information Technology,Software,Technology"
+0,small,12032,Carewell,carewell,Healthcare
+0,large,15000451,Netskope,netskope,"Software,Technology"
+0,large,204,Verizon Communications,verizoncommunications,Consumer Goods & Services
+0,small,12340,TIAA,tiaa,Insurance
+0,large,12060,Publix,publix,Food & Beverage
+0,large,12411,Beam Suntory,beamsuntory,"Consumer Goods & Services,Food & Beverage"
+0,large,11775,MediaCom,mediacom,Advertising and Agencies
+0,large,15000206,Braze,braze,"Client Services,Software"
+0,large,15000309,Garrett Advancing Motion,garrettadvancingmotion,"Engineering,Manufacturing,Technology"
+0,small,11991,JustFix.nyc,justfixnyc,Social Good
+0,small,12070,Skyepoint Decisions,skyepointdecisions,Technology
+0,large,15000238,Wipro,wipro,Consulting
+0,large,11859,Mattel,mattel,"Consumer Goods & Services,Entertainment & Gaming,Manufacturing"
+0,small,12290,Talend,talend,Technology
+0,small,12276,"Stimulus, Inc.",stimulusinc,Technology
+0,medium,15000152,Federation of State Medical Boards,federationofstatemedicalboards,"Healthcare,Information Technology,Non-Profit,Public Relations & Communications"
+0,large,12221,State Farm,statefarm,"Financial Services,Insurance"
+0,large,15000184,Ansys,ansys,"Engineering,Software,Technology"
+0,medium,996,CarGurus,cargurus,"Consumer Goods & Services,Technology"
+0,large,12151,Elastic,elastic,Technology
+0,large,12175,Right At School,rightatschool,"Arts & Music,Education,Social Good"
+0,large,15000319,Vestas,vestas,Energy
+0,large,15000271,Donnelley Financial,donnelleyfinancial,Technology
+0,large,15000052,Portland Public Schools,portlandpublicschools,Education
+0,small,12207,GrubStreet,grubstreet,"Arts & Music,Social Good"
+0,large,928,Vanguard,vanguard,"Client Services,Consulting,Financial Services,Technology"
+0,small,12294,Second Closet,secondcloset,"Consumer Goods & Services,Technology"
+0,large,15000322,Grainger,grainger,"Information Technology,Retail"
+0,large,11764,Axios,axios,"Advertising and Agencies,Media,Social Media,Technology"
+0,medium,605,Cleveland Research Company,clevelandresearchcompany,"Client Services,Financial Services"
+0,small,12328,Clarity AI,clarityai,"Financial Services,Social Good"
+0,large,1320,Quicken Loans,quickenloans,"Client Services,Financial Services"
+0,medium,1420,PCORI,pcori,"Data Science,Healthcare,Non-Profit,Social Good"
+0,small,12337,Ada,ada,Technology
+0,large,11887,Spectrum,spectrum,"Media,Technology,Telecom"
+0,small,12358,ExxonMobil,exxonmobil,Manufacturing
+0,small,11970,Gladly,gladly,Technology
+0,small,12318,FireEye,fireeye,Technology
+0,large,15000316,Intuitive,intuitive,"Engineering,Healthtech,Manufacturing,Technology"
+0,small,12245,Helium Health,heliumhealth,"Healthcare,Technology"
+0,medium,12141,Liftoff,liftoff,"Advertising and Agencies,Client Services,Consumer Goods & Services,Technology"
+0,medium,12174,Wistia,wistia,Technology
+0,large,707,Banfield Pet Hospital,banfieldpethospital,"Healthcare,Veterinary"
+0,large,12160,EPAM Systems,epamsystems,"Consulting,Technology"
+0,large,11751,Intermex,intermex,
+0,large,15000486,Thrive Skilled Pediatric Care,thriveskilledpediatriccare,Healthcare
+0,small,12265,Upswing,upswing,"Education,Technology"
+0,small,12283,Enlitic,enlitic,Healthtech
+0,medium,11986,Madison Logic,madisonlogic,Advertising and Agencies
+0,large,12058,A Place For Mom,aplaceformom,Technology
+0,large,15000185,Federal Reserve Bank of Philadelphia,federalreservebankofphiladelphia,"Financial Services,Non-Profit,Social Good"
+0,small,380,Sir Kensington's,sirkensingtons,Food & Beverage
+0,medium,12135,Meero,meero,"Media,Technology"
+0,large,838,Epsilon,epsilon,"Advertising and Agencies,Client Services,Technology"
+0,medium,15000224,mabl,mabl,Software
+0,small,12301,Pineapple Payments,pineapplepayments,"Financial Services,Technology"
+0,small,11681,Elysium Health,elysiumhealth,"Consumer Goods & Services,Healthcare,Social Good"
+0,medium,12039,Paysafe,paysafe,Technology
+0,small,12049,Q-Centrix,qcentrix,Healthcare
+0,small,12343,FedEx,fedex,Client Services
+0,large,1383,Equinox,equinox,"Consumer Goods & Services,Travel and Hospitality"
+0,large,12179,Thought Machine,thoughtmachine,"Financial Services,Information Technology,Software,Technology"
+0,large,659,Meta,meta,"Engineering,Social Media,Technology"
+0,small,12230,Black Girl Ventures Foundation,blackgirlventuresfoundation,"Financial Services,Technology"
+0,small,12247,SIRUM,sirum,"Healthcare,Social Good,Technology"
+0,large,1218,CSC,csc,"Client Services,Financial Services,Fintech,Technology"
+0,large,15000285,The AES Corporation,theaescorporation,Energy
+0,large,15000485,Ciena Healthcare,cienahealthcare,Healthcare
+0,large,15000222,"Equinix, Inc",equinixinc,Technology
+0,small,12040,Office Practicum,officepracticum,Technology
+0,medium,12088,Austin Pets Alive!,austinpetsalive,Social Good
+0,small,11927,Oncopeptides Inc.,oncopeptidesinc,"Healthcare,Social Good"
+0,large,12146,Salesforce,salesforce,Technology
+0,medium,15000170,Hometap,hometap,"Financial Services,Fintech"
+0,large,230,Deloitte,deloitte,"Client Services,Consulting,Financial Services,Technology"
+0,large,15000262,Delta Dental Ins.,deltadentalins,Insurance
+0,large,11784,VMware Carbon Black,vmwarecarbonblack,"Engineering,Technology"
+0,large,785,Arrow Electronics,arrowelectronics,"Engineering,Manufacturing,Technology"
+0,large,12062,Fisher Investments,fisherinvestments,"Client Services,Financial Services,Fintech"
+0,small,12420,GameChanger,gamechanger,Technology
+0,medium,12033,Model N,modeln,Technology
+0,small,12314,Hello Alice,helloalice,Technology
+0,small,1327,The Muse,themuse,Technology
+0,small,15000032,Intradiem,intradiem,Technology
+0,small,12339,World Fuel,worldfuel,"Engineering,Travel and Hospitality"
+0,large,12067,Cresco Labs,crescolabs,Healthcare
+0,medium,12094,"Microdesk, Inc.",microdeskinc,"Consulting,Technology"
+0,large,15000181,Anthology,anthology,"Education,Software,Technology"
+0,small,12338,Patagonia,patagonia,Fashion & Beauty
+0,medium,12181,Blueprint Medicines,blueprintmedicines,"Biotechnology,Pharmaceutical"
+0,large,15000177,PitchBook Data,pitchbookdata,"Financial Services,Fintech,Technology"
+0,large,622,Farmers Insurance Agencies,farmersinsuranceagencies,Insurance
+0,large,11976,Speedway,speedway,Food & Beverage
+0,small,12352,Energy Transfer Partners,energytransferpartners,Engineering
+0,large,15000133,Insight Global,insightglobal,"Client Services,Consulting,Information Technology,Technology"
+0,large,11896,MLB,mlb,"Consumer Goods & Services,Engineering,Media"
+0,large,12035,Novartis,novartis,Biotechnology
+0,medium,11697,Cofense,cofense,"Engineering,Technology"
+0,large,45,eBay,ebay,Consumer Goods & Services
+0,medium,11981,Summit Public Schools,summitpublicschools,Education
+0,small,12346,USAA,usaa,"Financial Services,Insurance"
+0,large,15000243,Zimvie,zimvie,Manufacturing
+0,large,11868,DTCC,dtcc,"Financial Services,Fintech,Information Technology,Technology"
+0,small,12187,Spire Collective,spirecollective,Consumer Goods & Services
+0,large,11795,Cinemark,cinemark,"Entertainment & Gaming,Food & Beverage,Media,Technology"
+0,small,1215,World 50 Group,world50group,"Client Services,Consulting"
+0,large,15000470,Aptiv,aptiv,Technology
+0,large,12010,Walmart,walmart,"Consumer Goods & Services,Technology"
+0,medium,11837,Amperity,amperity,"Software,Technology"
+0,small,12044,Signavio,signavio,Technology
+0,large,15000261,Infosys,infosys,Software
+0,large,12235,Lime,lime,Technology
+0,small,12375,Scholly,scholly,"Education,Technology"
+0,large,11763,Gentle Dental,gentledental,Healthcare
+0,medium,1337,Guidepoint,guidepoint,"Client Services,Data Science,Financial Services,Technology"
+0,large,15000214,Taylor Morrison,taylormorrison,"Mortgage,Real Estate & Construction"
+0,medium,15000109,Infogrid,infogrid,"Software,Technology"
+0,large,12125,Salamander Hotels & Resorts,salamanderhotelsresorts,"Food & Beverage,Travel and Hospitality"
+0,medium,373,Bozzuto,bozzuto,"Client Services,Real Estate & Construction,Travel and Hospitality"
+0,large,15000114,Hitachi Energy,hitachienergy,"Energy,Engineering,Manufacturing,Technology"
+0,large,15000325,Mastercard,mastercard,Fintech
+0,medium,11993,Duo Security,duosecurity,"Information Technology,Technology"
+0,small,12322,Devoted Health,devotedhealth,"Healthcare,Technology"
+0,large,15000383,Thermo Fisher Scientific,thermofisherscientific,"Biotechnology,Healthtech,Manufacturing,Pharmaceutical"
+0,large,12016,NetApp,netapp,Technology
+0,small,12238,Sedera,sedera,"Healthcare,Technology"
+0,large,15000198,Via,via,"Software,Technology"
+0,medium,11,Airbnb,airbnb,Travel and Hospitality
+0,large,15000183,Eaton,eaton,"Energy,Engineering,Manufacturing"
+0,medium,11957,Restoration Management Company,restorationmanagementcompany,"Client Services,Real Estate & Construction"
+0,large,15000055,DaVita,davita,Healthcare
+0,large,15000301,Brightline Trains,brightlinetrains,Travel and Hospitality
+0,small,12216,LifeWeb 360,lifeweb360,"Consumer Goods & Services,Social Good,Social Media,Technology"
+0,large,12273,CrowdStrike,crowdstrike,"Engineering,Information Technology,Technology"
+0,large,15000298,Google,google,Technology
+0,medium,12004,GeoBlue,geoblue,"Healthcare,Insurance"
+0,large,15000326,H&M,hm,"Fashion & Beauty,Retail"
+0,large,12007,Cerner,cerner,Technology
+0,large,15000288,Siemens Digital Industries Software,siemensdigitalindustriessoftware,Software
+0,small,12304,Nubank,nubank,"Financial Services,Technology"
+0,large,12198,Giant Eagle,gianteagle,Food & Beverage
+0,small,12053,Freire Schools,freireschools,Education
+0,large,11973,Banner Health,bannerhealth,Healthcare
+0,large,15000488,Teleperformance USA,teleperformanceusa,Consulting
+0,small,12335,Mented Cosmetics,mentedcosmetics,Fashion & Beauty
+0,medium,849,Accolade,accolade,"Healthcare,Technology"
+0,large,12127,Protective,protective,"Financial Services,Insurance"
+0,large,198,Pabst Brewing Company,pabstbrewingcompany,Food & Beverage
+0,large,12242,Ideal Image,idealimage,"Consumer Goods & Services,Fashion & Beauty,Healthcare"
+0,large,974,Alcon,alcon,Healthcare
+0,small,12138,Maven Recruiting Group,mavenrecruitinggroup,"Biotechnology,Financial Services,Real Estate & Construction,Technology"
+0,large,15000083,Bounteous,bounteous,"Advertising and Agencies,Client Services,Marketing,Technology"
+0,large,12266,Flex,flex,"Engineering,Healthcare,Manufacturing,Technology"
+0,medium,15000065,March of Dimes,marchofdimes,"Healthcare,Non-Profit,Social Good"
+0,large,15000249,Waters,waters,Information Technology
+0,large,12098,Visa,visa,"Engineering,Fintech,Information Technology,Technology"
+0,large,15000143,Simon Data,simondata,"Marketing,Software,Technology"
+0,large,11878,Oscar Health,oscarhealth,"Healthcare,Insurance,Technology"
+0,small,12289,Taulia,taulia,"Financial Services,Technology"
+0,medium,12232,Depop,depop,Technology
+0,large,15000290,Achieve,achieve,Financial Services
+0,large,15000295,Segra,segra,Telecom
+0,large,15000313,Qualtrics,qualtrics,Technology
+0,small,12384,Formation Bio,formationbio,"Biotechnology,Engineering,Healthcare,Technology"
+0,large,15000270,Constellation Brands,constellationbrands,Technology
+0,small,12348,MetLife,metlife,Insurance
+0,large,15000030,Hootsuite,hootsuite,"Advertising and Agencies,Media,Social Media,Technology"
+0,large,15000069,General Motors,generalmotors,"Consumer Goods & Services,Engineering,Manufacturing,Technology"
+0,small,12042,Skillz,skillz,Entertainment & Gaming
+0,small,12329,Chainalysis,chainalysis,"Financial Services,Technology"
+0,large,25,Sephora,sephora,Fashion & Beauty
+0,small,12371,"Patientory, Inc.",patientoryinc,"Consumer Goods & Services,Healthcare"
+0,medium,11939,Bombas,bombas,"Consumer Goods & Services,Fashion & Beauty,Retail,Social Good"
+0,large,1010,WellPower,wellpower,"Healthcare,Non-Profit,Social Good"
+0,large,15000253,Pariveda Solutions,parivedasolutions,Consulting
+0,medium,12082,FRONTSTEPS,frontsteps,"Real Estate & Construction,Technology"
+0,small,12319,FinancialForce,financialforce,Technology
+0,medium,994,PetMeds®,petmeds,Consumer Goods & Services
+0,large,12195,Southern California Edison (SCE),southerncaliforniaedisonsce,"Energy,Technology"
+0,large,1496,Hachette Book Group,hachettebookgroup,"Consumer Goods & Services,Media"
+0,medium,15000293,Openly,openly,Insurance
+0,large,702,Broadridge,broadridge,"Financial Services,Technology"
+0,large,15000035,Royal Caribbean Group,royalcaribbeangroup,"Consumer Goods & Services,Travel and Hospitality"
+0,large,15000245,Moody's,moodys,Financial Services
+0,small,12277,Valence,valence,"Social Good,Technology"
+0,large,1403,"NIKE, Inc.",nikeinc,"Consumer Goods & Services,Engineering,Technology"
+0,small,12361,Best Buy,bestbuy,Consumer Goods & Services
+0,medium,15000173,iMentor,imentor,"Education,Non-Profit,Social Good,Technology"
+0,large,15000472,Optiv,optiv,"Consulting,Information Technology"
+0,small,12295,Yandex,yandex,Technology
+0,large,15000321,Ampersand,ampersand,"Advertising and Agencies,Technology"
+0,large,15000250,American Family Insurance,americanfamilyinsurance,Insurance
+0,small,12228,Dialpad,dialpad,
+0,large,15000211,Cook Children's Health Care System,cookchildrenshealthcaresystem,"Healthcare,Insurance,Non-Profit"
+0,small,12021,BRICK Education Network,brickeducationnetwork,Education
+0,small,12051,Eze Castle Integration,ezecastleintegration,Technology
+0,small,15000026,Health-E Commerce,healthecommerce,"Consumer Goods & Services,Healthcare"
+0,large,909,Gap Inc.,gapinc,"Consumer Goods & Services,Fashion & Beauty,Retail"
+0,large,12075,Merck,merck,Healthcare
+0,medium,12107,"Tile, Inc.",tileinc,"Consumer Goods & Services,Engineering,Technology"
+0,large,15000081,Carta,carta,"Financial Services,Fintech,Software,Technology"
+0,large,741,Atlassian,atlassian,Technology
+0,large,11829,Instacart,instacart,"Consumer Goods & Services,Food & Beverage,Technology"
+0,large,12168,Bristol Myers Squibb,bristolmyerssquibb,"Biotechnology,Engineering,Healthcare,Manufacturing"
+0,medium,11967,Kairos Power,kairospower,Engineering
+0,medium,15000294,InfluxData,influxdata,Technology
+0,large,15000487,Empower,empower,Financial Services
+0,large,850,Goldman Sachs,goldmansachs,Financial Services
+0,small,12124,Mentor Collective,mentorcollective,"Education,Technology"
+0,large,15000239,ASML,asml,Manufacturing
+0,large,11960,Sprinklr,sprinklr,"Client Services,Media,Social Media,Technology"
+0,small,12205,Hiya,hiya,"Technology,Telecom"
+0,large,1314,The Auto Club Group,theautoclubgroup,"Insurance,Travel and Hospitality"
+0,small,80,Factual,factual,Technology
+0,small,12354,Sysco,sysco,Food & Beverage
+0,large,15000314,Peapod Digital Labs,peapoddigitallabs,Technology
+0,large,15000200,VaynerMedia,vaynermedia,Advertising and Agencies
+0,medium,12190,"Bullhorn, Inc.",bullhorninc,Technology
+0,large,922,CarMax,carmax,"Consumer Goods & Services,Technology"
+0,large,12200,Selina,selina,Travel and Hospitality
+0,large,12084,Adobe,adobe,Technology
+0,large,15000296,WME | William Morris Endeavor,wmewilliammorrisendeavor,"Arts & Music,Entertainment & Gaming,Fashion & Beauty,Media"
+0,small,12240,Fini Brand,finibrand,Fashion & Beauty
+0,large,11772,Memorial Sloan Kettering Cancer Center,memorialsloanketteringcancercenter,"Healthcare,Technology"
+0,small,12365,Hint,hint,Food & Beverage
+0,small,12286,"Humu, Inc",humuinc,Technology
+0,large,15000148,The Commonwealth of Massachusetts,thecommonwealthofmassachusetts,"Client Services,Engineering,Government,Information Technology"
+0,small,12250,Tipico - North America,tipiconorthamerica,"Engineering,Entertainment & Gaming,Technology"
+0,large,15000256,Cadence,cadence,Technology
+0,medium,1570,Patreon,patreon,Technology
+0,medium,12251,TELUS International AI Inc.,telusinternationalaiinc,"Consulting,Information Technology,Technology,Telecom"
+0,large,12017,C.H. Robinson,chrobinson,Client Services
+0,large,12009,Discover,discover,Financial Services
+0,medium,150,SXSW,sxsw,Arts & Music
+0,medium,11974,Propel Schools,propelschools,Education
+0,small,12102,Black Girl Sunscreen,blackgirlsunscreen,"Consumer Goods & Services,Fashion & Beauty"
+0,small,12324,Dandelion Energy,dandelionenergy,"Engineering,Real Estate & Construction"
+0,large,11715,PepsiCo,pepsico,"Consumer Goods & Services,Food & Beverage,Manufacturing"
+0,medium,416,MediaRadar,mediaradar,"Advertising and Agencies,Technology"
+0,large,15000221,US Foods,usfoods,"Food & Beverage,Information Technology,Marketing"
+0,large,15000139,Cracker Barrel,crackerbarrel,"Food & Beverage,Travel and Hospitality"
+0,medium,11724,NAVEX,navex,"Client Services,Technology"
+0,large,11856,UnitedHealth Group,unitedhealthgroup,Healthcare
+0,large,15000225,Trupanion,trupanion,"Insurance,Veterinary"
+0,small,12331,Carbon,carbon,Manufacturing
+0,large,792,Northrop Grumman,northropgrumman,"Engineering,Manufacturing,Technology"
+0,small,12275,CEEK VR INC,ceekvrinc,"Arts & Music,Entertainment & Gaming,Media,Technology"
+0,small,11985,Grubb Properties,grubbproperties,Real Estate & Construction
+0,medium,12085,Navan,navan,Technology
+0,small,11982,Altais,altais,Healthcare
+0,large,15000302,BAYADA Home Health Care,bayadahomehealthcare,Healthcare
+0,small,11653,Allbirds,allbirds,"Consumer Goods & Services,Fashion & Beauty"
+0,large,12390,U.S. Department of State,usdepartmentofstate,Government
+0,small,15000084,Allovue,allovue,"Education,Fintech"
+0,large,12132,Dell Technologies,delltechnologies,"Technology,Telecom"
+0,medium,11801,AdvaMed,advamed,"Healthcare,Healthtech,Technology"
+0,small,12334,Ankr,ankr,Technology
+0,large,1618,Advia Credit Union,adviacreditunion,Financial Services
+0,medium,11730,DIG,dig,"Consumer Goods & Services,Food & Beverage,Social Good"
+0,large,1370,WeightWatchers,weightwatchers,"Data Science,Fitness & Wellness,Healthtech,Technology"
+0,large,317,Dolby,dolby,"Consumer Goods & Services,Technology"
+0,large,12370,Warner Bros. Discovery,warnerbrosdiscovery,"Engineering,Entertainment & Gaming,Software,Technology"
+0,large,15000054,Advocate Aurora Health,advocateaurorahealth,Healthcare
+0,large,713,Penske Motor Group,penskemotorgroup,Consumer Goods & Services
+0,small,12264,4Degrees,4degrees,Technology
+0,medium,15000122,Galileo Health,galileohealth,"Healthcare,Healthtech"
+0,medium,560,Rakuten International,rakuteninternational,"Consumer Goods & Services,Technology"
+0,medium,15000118,Upside,upside,"Financial Services,Fintech,Retail,Technology"
+0,large,798,Shopify,shopify,"Consumer Goods & Services,Technology"
+0,large,15000101,Boston Consulting Group (BCG),bostonconsultinggroupbcg,"Consulting,Data Science,Social Good,Technology"
+0,medium,12224,Jumio,jumio,"Engineering,Technology"
+0,small,12306,Nearpod,nearpod,"Education,Technology"
+0,large,12065,Nielsen,nielsen,Client Services
+0,small,12336,Affectiva,affectiva,Technology
+0,medium,12043,KeepTruckin,keeptruckin,Technology
+0,large,12037,TE Connectivity,teconnectivity,"Engineering,Manufacturing,Technology"
+0,medium,12121,Smart City Apartment Locating,smartcityapartmentlocating,"Real Estate & Construction,Technology"
+0,medium,894,Yext,yext,"Information Technology,Software,Technology"
+0,large,12120,LiveRamp,liveramp,"Advertising and Agencies,Client Services,Technology"
+0,medium,12045,Enova,enova,Technology
+0,large,11650,Liberty Mutual Insurance,libertymutualinsurance,"Consumer Goods & Services,Financial Services,Insurance,Technology"
+0,small,12031,BetterUp,betterup,Technology
+0,large,15000251,GXO,gxo,Consumer Goods & Services
+0,medium,1478,Tradeweb,tradeweb,"Financial Services,Fintech,Technology"
+0,large,12360,RTX,rtx,"Manufacturing,Technology"
+0,large,15000324,ID.me,idme,Technology
+0,large,891,Allstate,allstate,"Financial Services,Insurance"
+0,small,12347,Delta Air Lines,deltaairlines,Travel and Hospitality
+0,large,11919,Miro,miro,"Consumer Goods & Services,Information Technology,Software,Technology"
+0,large,12055,Cummins,cummins,"Engineering,Manufacturing,Technology"
+0,large,15000291,Alight Solutions LLC,alightsolutionsllc,Technology
+0,large,15000029,TikTok,tiktok,"Entertainment & Gaming,Social Media,Technology"
+0,large,12023,Humana,humana,Healthcare
+0,large,1493,Johnson & Johnson,johnsonjohnson,"Consumer Goods & Services,Engineering,Fashion & Beauty,Healthcare,Manufacturing,Technology"
+0,medium,15000223,Canuck Place Children's Hospice,canuckplacechildrenshospice,"Healthcare,Non-Profit"
+0,large,1415,Avanade,avanade,"Consulting,Technology"
+0,large,15000328,Providence Swedish,providenceswedish,Healthcare
+0,small,12298,Qualcomm,qualcomm,"Technology,Telecom"
+0,large,11759,Prudential,prudential,"Financial Services,Insurance"
+0,medium,657,Wealthfront,wealthfront,"Engineering,Financial Services,Technology"
+0,large,15000252,DISH,dish,Telecom
+0,large,1519,Pluralsight,pluralsight,"Education,Technology"
+0,small,12320,Epic Games,epicgames,Entertainment & Gaming
+0,large,15000124,Cruise,cruise,"Data Science,Software,Technology,Travel and Hospitality"
+0,large,15000283,Toyota North America,toyotanorthamerica,Consumer Goods & Services
+0,medium,15000317,Taskrabbit,taskrabbit,Technology
+0,large,12072,Labatt Breweries of Canada,labattbreweriesofcanada,Food & Beverage
+0,large,12052,Collins Aerospace,collinsaerospace,Technology
+0,large,15000275,Leidos,leidos,Information Technology
+0,large,11711,Healthfirst,healthfirst,"Healthcare,Insurance"
+0,small,12103,souk + SEPIA,souksepia,"Consumer Goods & Services,Fashion & Beauty"
+0,large,11854,Open Society Foundations,opensocietyfoundations,Social Good
+0,large,1184,ViacomCBS Streaming,viacomcbsstreaming,"Media,Technology"
+0,medium,1292,Hudson River Trading,hudsonrivertrading,"Fintech,Technology"
+0,small,12302,Pex,pex,Technology
+0,large,1257,BlackRock,blackrock,"Financial Services,Technology"
+0,large,12157,FanDuel,fanduel,"Consumer Goods & Services,Entertainment & Gaming,Technology"
+0,medium,11845,BrainPOP,brainpop,"Education,Technology"
+0,large,15000300,Brighthouse Financial,brighthousefinancial,"Financial Services,Insurance"
+0,large,11796,Staples,staples,Retail
+0,small,12300,Plug Power,plugpower,"Engineering,Social Good"
+0,medium,15000176,Mast-Jägermeister US,mastjagermeisterus,Food & Beverage
+0,medium,12059,Bluebeam,bluebeam,Technology
+0,medium,12111,Flatiron Health,flatironhealth,"Healthcare,Healthtech,Technology"
+0,large,972,Stantec,stantec,"Architecture,Engineering"
+0,medium,12073,iPipeline,ipipeline,Technology
+0,large,12185,Continental,continental,Manufacturing
+0,large,15000146,Zendesk,zendesk,Software
+0,large,11642,"Chick-fil-A, Inc.",chickfilainc,"Consumer Goods & Services,Food & Beverage"
+0,large,12024,Autodesk,autodesk,"Software,Technology"
+0,large,12064,Fannie Mae,fanniemae,Financial Services
+0,large,15000318,Cencora,cencora,"Healthcare,Healthtech,Pharmaceutical,Veterinary"
+0,medium,12254,Sonatype,sonatype,"Information Technology,Software,Technology"
+0,small,11980,YipitData,yipitdata,Technology
+0,small,12022,Ribbon,ribbon,Technology
+0,medium,12140,Bixal,bixal,"Client Services,Consulting,Government,Technology"
+0,medium,15000174,Mural,mural,"Software,Technology"
+0,large,12231,Chewy,chewy,"Consumer Goods & Services,Healthcare,Technology"
+0,large,15000247,Sandia National Laboratories,sandianationallaboratories,Energy
+0,medium,12233,Spryker,spryker,Technology
+0,medium,12218,iRhythm Technologies,irhythmtechnologies,"Biotechnology,Client Services,Engineering,Healthcare,Manufacturing,Technology"
+0,large,15000264,Saint-Gobain,saintgobain,Technology
+0,large,1211,Enterprise Mobility,enterprisemobility,"Client Services,Consumer Goods & Services,Travel and Hospitality"
+0,small,12362,Chevron,chevron,"Consumer Goods & Services,Manufacturing"
+0,large,15000166,GoodRx,goodrx,"Engineering,Healthcare,Healthtech,Technology"
+0,large,1265,Taco Bell,tacobell,Food & Beverage
+0,large,15000131,Morgan Stanley,morganstanley,"Financial Services,Technology,Trading"
+0,small,12299,Podium,podium,Technology
+0,large,15000074,Sutherland,sutherland,"Financial Services,Insurance,Media,Technology"
+0,large,15000107,"J. J. Keller & Associates, Inc.",jjkellerassociatesinc,"Client Services,Consulting,Software,Technology"
+0,large,267,PayPal,paypal,Client Services
+0,large,15000075,Coinbase,coinbase,"Blockchain,Financial Services,Fintech,Technology"
+0,large,15000311,Allegheny County Department of Human Services,alleghenycountydepartmentofhumanservices,Government
+0,small,284,TYRA Beauty,tyrabeauty,"Entertainment & Gaming,Fashion & Beauty"
+0,small,12246,Players' Lounge,playerslounge,Entertainment & Gaming
+0,large,304,Comcast,comcast,"Education,Media,Telecom"
+0,large,1444,First Citizens Bank,firstcitizensbank,Financial Services
+0,small,15000134,Swiftly,swiftly,"Information Technology,Social Good,Software,Technology"
+0,large,901,Capital One,capitalone,"Consumer Goods & Services,Financial Services,Technology"
+0,small,15000160,Ascend.io,ascendio,"Data Science,Information Technology,Software,Technology"
+0,large,12201,New York Life,newyorklife,"Insurance,Technology"
+0,medium,12134,POLITICO Europe,politicoeurope,Media
+0,medium,12066,Year Up,yearup,Social Good
+0,large,515,Cornerstone OnDemand,cornerstoneondemand,"Engineering,Financial Services,Technology"
+0,medium,15000128,LogicGate,logicgate,"Software,Technology"
+0,large,15000175,UBS,ubs,"Financial Services,Fintech"
+0,medium,11762,Small Girls PR,smallgirlspr,"Client Services,Fashion & Beauty,Media,Public Relations & Communications"
+0,large,15000304,Per Scholas,perscholas,"Education,Information Technology,Non-Profit,Technology"
+0,small,12359,American Airlines,americanairlines,Travel and Hospitality
+0,large,828,Success Academy Charter Schools,successacademycharterschools,Education
+0,medium,15000155,Momnt,momnt,Fintech
+0,large,1291,Esri,esri,"Information Technology,Social Good,Software,Technology"
+0,large,11879,American Express,americanexpress,"Consumer Goods & Services,Financial Services,Technology,Travel and Hospitality"
+0,large,12019,Here Technologies,heretechnologies,Technology
+0,medium,14,Warby Parker,warby,Fashion & Beauty
+0,small,12327,Cleo,cleo,"Financial Services,Technology"
+0,medium,11779,TriNetX,trinetx,"Healthcare,Technology"
+0,small,12293,Shippo,shippo,Technology
+0,small,12288,Xometry,xometry,"Manufacturing,Technology"
+0,large,11777,Coty,coty,Fashion & Beauty
+0,large,15000150,Unum Group,unumgroup,"Financial Services,Insurance,Technology"
+0,large,1498,KinderCare Learning Companies,kindercarelearningcompanies,Education
+0,small,12241,b atomic,batomic,"Insurance,Technology"
+0,small,12313,Honeycomb,honeycomb,Technology
+0,medium,11911,Lincoln Center for the Performing Arts,lincolncenterfortheperformingarts,"Arts & Music,Education,Media,Social Good"
+0,medium,12391,Rapid Micro Biosystems,rapidmicrobiosystems,"Biotechnology,Manufacturing"
+0,small,12332,BMC Software,bmcsoftware,Consulting
+0,small,12253,Hurdle,hurdle,"Healthcare,Insurance,Social Good"
+0,large,15000169,ZS,zs,"Consulting,Healthtech,Pharmaceutical,Technology"
+0,medium,11916,SpotX,spotx,"Media,Technology"
+0,large,12061,BIC,bic,Manufacturing
+0,small,12047,Bond,bond,Financial Services
+0,small,12296,Stord,stord,Technology
+0,small,12310,Live Nation Entertainment,livenationentertainment,Entertainment & Gaming
+0,large,11984,City of Philadelphia,cityofphiladelphia,Government
+0,large,12152,State Street,statestreet,"Client Services,Consulting,Financial Services,Technology"
+0,large,376,Dow Jones,dowjones,"Financial Services,Media"
+0,medium,15000039,"SEO (SPONSORS FOR EDUCATIONAL OPPORTUNITY, INC)",sponsorsforeducationalopportunityseo,"Education,Social Good"
+0,medium,12208,Coleman Research,colemanresearch,"Client Services,Consulting,Financial Services"
+0,small,12353,American International Group,americaninternationalgroup,Insurance
+0,large,15000121,GE Vernova,gevernova,"Engineering,Manufacturing"
+0,large,12090,Amazon,amazon,Technology
+0,large,12169,Kimberly-Clark,kimberlyclark,"Consumer Goods & Services,Engineering,Manufacturing"
+0,medium,11781,iCapital,icapital,"Financial Services,Technology"
+0,medium,12153,SimplePractice,simplepractice,"Healthcare,Technology"
+0,small,12291,Strava,strava,"Social Media,Technology"
+0,medium,1046,Illumio,illumio,Technology
+0,small,12029,Headway,headway,Healthcare
+0,small,11792,Tuft & Needle,tuftneedle,Manufacturing
+0,small,12367,Twitter,twitter,Social Media
+0,large,11811,Intuit,intuit,"Consumer Goods & Services,Financial Services,Technology"
+0,medium,811,Intapp,intapp,Technology
+0,large,11897,McMaster-Carr,mcmastercarr,"Client Services,Consulting,Engineering,Manufacturing,Technology"
+0,small,12330,Cardlytics,cardlytics,"Financial Services,Technology"
+0,small,15000104,Graphite,graphite,"Consulting,Information Technology,Marketing,Technology"
+0,large,279,Outbrain,outbrain,"Advertising and Agencies,Media,Technology"
+0,small,12341,Tyson Foods,tysonfoods,Food & Beverage
+0,large,12078,Natera,natera,Biotechnology
+0,small,12325,Curaleaf,curaleaf,Healthcare
+0,small,12008,KyotoCooling,kyotocooling,Manufacturing
+0,medium,12154,"Invoice Cloud, Inc.",invoicecloudinc,"Financial Services,Technology"
+0,small,12356,Nationwide Insurance,nationwideinsurance,Insurance
+0,large,57,AOL,aol,Media
+0,large,12030,Avis,avis,Travel and Hospitality
+0,large,15000073,Bloomberg LP,bloomberglp,"Financial Services,Media,Social Good,Technology"
+0,large,12170,Northwell Health,northwellhealth,Healthcare
+0,small,12262,Color Of Change,colorofchange,Social Good
+0,large,970,Wells Fargo,wellsfargo,"Financial Services,Fintech,Mortgage,Technology"
+0,large,11836,Charles Schwab,charlesschwab,"Financial Services,Fintech,Technology"
+0,large,108,NFL,nfl,"Entertainment & Gaming,Media"
+0,small,11977,Explore Schools,exploreschools,Education
+0,medium,11834,Food Bank For New York City,foodbankfornewyorkcity,"Food & Beverage,Social Good"
+0,medium,362,Stack Overflow,stackoverflow,"Software,Technology"
+0,large,12096,CVS Health,cvshealth,Healthcare
+0,large,12161,Edwards Lifesciences,edwardslifesciences,"Engineering,Healthcare,Manufacturing"
+0,medium,706,Appian,appian,"Engineering,Technology"
+0,medium,1156,VIZIO,vizio,"Consumer Goods & Services,Technology"
+0,large,1094,Pulte Mortgage,pultemortgage,"Financial Services,Mortgage"
+0,large,1347,Tory Burch,toryburch,Fashion & Beauty
+0,large,1062,GEICO,geico,"Client Services,Insurance"
+0,large,12026,Biogen,biogen,"Biotechnology,Healthcare,Healthtech,Pharmaceutical"
+0,large,11965,Transportation Security Administration,transportationsecurityadministration,"Consumer Goods & Services,Government,Travel and Hospitality"
+0,small,551,Fetch Robotics,fetchrobotics,Technology
+0,medium,12020,Ascend,ascend,Education
+0,medium,1293,Kendra Scott,kendrascott,"Consumer Goods & Services,Fashion & Beauty,Retail,Technology"
+0,large,1480,Palo Alto Networks,paloaltonetworks,Technology
+0,large,1360,The Washington Post,thewashingtonpost,"Media,Technology"
+0,large,11816,BlackLine,blackline,"Financial Services,Technology"
+0,large,1240,Federal Bureau of Investigation (FBI),federalbureauofinvestigationfbi,"Government,Law"
+0,large,92,McKinsey,mckinsey,Consulting
+0,medium,11766,Asensus Surgical,asensussurgical,"Biotechnology,Engineering,Technology"
+0,small,11741,Nuvera Life Science Consulting,nuveralifescienceconsulting,"Biotechnology,Consulting,Healthcare,Pharmaceutical"
+0,medium,1405,Optima Tax Relief,optimataxrelief,Financial Services
+0,large,1216,Kohl's,kohls,"Consumer Goods & Services,Fashion & Beauty,Technology"
+0,medium,31,Pinterest,pinterest,"Social Media,Technology"
+0,medium,1343,Glaukos Corporation,glaukoscorporation,Healthcare
+0,large,1268,GANNETT,gannett,Media
+0,large,1146,Clearlink,clearlink,"Advertising and Agencies,Marketing,Media,Technology"
+0,large,1082,TransUnion,transunion,Technology
+0,large,365,The Wall Street Journal,thewallstreetjournal,Media
