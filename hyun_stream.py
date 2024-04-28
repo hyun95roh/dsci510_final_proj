@@ -302,6 +302,9 @@ elif page == 'Analysis':
     
     st.plotly_chart(fig) 
 
+    st.markdown('The bigger circle indicates the larger number of job openings. It seems that N.Y. has larger opportunities')
+    st.markdown('The color states that as it get brighter the higher average prevailing wage. Los Angeles has smaller job openings but the expected salary level is the highest among the three cities')
+
         
     ## A2_3
     st.markdown('(Q3) If you can get old records from the API, for example job posting published in 2020, can you describe change in regional distribution from every March from 2020 to 2024?')
