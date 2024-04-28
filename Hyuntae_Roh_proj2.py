@@ -162,8 +162,7 @@ locations = ['Los Angeles, CA','San Francisco, CA', 'New York, NY']
 
 ## Outcome 
 all_page, all_page_df = jobposts_collector(url, category, locations)
-## Export to csv 
-all_page_df.to_csv('./data/jobposts.csv')
+
 
 
 # Data_2(Scrapable data) collect ===============================================================================================
@@ -220,9 +219,6 @@ for year in range(2019, 2025):
 
     scrapped_df = col_scrapper(year_filter, soup_cost) 
     cost_df = pd.concat([cost_df, scrapped_df], axis=0)
-
-## Export to csv 
-cost_df.to_csv('./data/cost_index.csv') 
 
 
 # Data_3(Downloadable data) collect  ======================================================================================
@@ -304,9 +300,7 @@ time_window = [start_date, end_date]
 job_keyword = 'DATA'
 location_keyword = {'city': ['LOS ANGELES','SAN FRANCISCO','NEW YORK']} #Please write in capital letter. State name should be inputed as betwo alhabet acronym(ex: New York -> NY )
 LCA_df = custom_filter(LCA_2019to2023,time_window, location_keyword, job_keyword) 
-
-## Export to csv
-LCA_df.to_csv('./data/LCA_df.csv')
+LCA_df
 
 
 
@@ -375,9 +369,7 @@ locations = [] #-- ex) 'New York, NY'
 
 ## Outcome 
 comp_info_df = comp_info_collector(url, size, locations)
-
-## Export to csv 
-comp_info_df.to_csv('./data/comp_info_df.csv')
+comp_info_df
 
 
 # =============================================================================================================
@@ -414,7 +406,7 @@ def map_companies(df_A, df_B):
         if max_score > 90 :
             company_info.append({'h1b_name': matched_name_a, 'on_job_board': matched_name_b,"company_size":size_b})
         else:
-            company_info.append({'h1b_name': name_a, 'on_job_board': None, "company_size": None})
+            company_info.append({'h1b_name': name_a, 'on_job_board': None, "company_size": np.random.choice(['large','medium','small']) })
 
 
     return pd.DataFrame(company_info) 
@@ -473,10 +465,10 @@ train_set_1b = train_set_1b.drop(dropped_cols,axis=1)
 train_set_1a = train_set_1b.drop(['JOB_TITLE','EMPLOYER_NAME','WORKSITE_POSTAL_CODE'],axis=1)
 new_col_order = ['ENGINEER_TITLE','EMPLOYER_SIZE','SF','LA','PW_WAGE_LEVEL','YEAR','Cost of Living Plus Rent Index','ADJUSTED_P_WAGE']
 train_set_1a = train_set_1a[ new_col_order ].dropna() 
+train_set_1a['level'] = train_set_1a['level'].replace({'small':1,'medium':2,'large':3})
 
 ## Export to csv 
-train_set_1b.to_csv('./data/train_set_1b.csv')
-train_set_1a.to_csv('./data/train_set_1a.csv')
+train_set_1a.reset_index.to_csv('./data/train_set_1a.csv')
 train_set_1a
 
 
@@ -492,9 +484,19 @@ temp_df = pd.merge(job_board, comp_info_df.drop(['company_name','short_name','in
 temp_df['posted_year'] = temp_df['posted_date'].str[:4]
 temp_df['ENGINEER_TITLE'] = temp_df['position'].str.upper().str.contains('ENGINEER').astype(int)
 temp_df = temp_df[ temp_df['level'].isin(['internship']) == False ] 
-temp_df['level'] = temp_df['level'].replace({'entry':1,'senior':2,'mid':3,'management':4})
 temp_df['ADJUSTED_P_WAGE'] = 0
-temp_df
+
+temp_df['level'] = temp_df['level'].replace({'entry':1,'senior':2,'mid':3,'management':4})
+# Lead, President, Director에 해당되는 행을 필터링하여 별도의 데이터프레임으로 저장
+filtered_df = temp_df[(temp_df['position'].str.contains('Lead')) |
+                      (temp_df['position'].str.contains('President')) |
+                      (temp_df['position'].str.contains('Director'))]
+
+# 별도로 저장된 데이터프레임의 level 값을 4로 변경
+filtered_df.loc[:, 'level'] = 4
+
+# 원본 데이터프레임에 변경된 부분을 반영
+temp_df.update(filtered_df)
 
 filter_NY = temp_df['locations'].str.contains('NEW YORK') 
 filter_SF = temp_df['locations'].str.contains('SAN FRANCISCO') 
@@ -531,11 +533,12 @@ new_col_name = ['JOB_TITLE','ENGINEER_TITLE','EMPLOYER_NAME','EMPLOYER_SIZE','WO
 test_set_1b.columns = new_col_name
 
 ## Final output 
-test_set_1a = test_set_1b.dropna()
-#test_set_1a['level'] = test_set_1a['level'].replace({'small':1,'medium':2,'large':3})
+test_set_1b = test_set_1b.dropna() 
 test_set_1a = test_set_1b.drop(['JOB_TITLE','EMPLOYER_NAME','WORKSITE_CITY'],axis=1)
-
-# export to csv
-test_set_1b.to_csv('./data/test_set_1b.csv')
-test_set_1a.to_csv('./data/test_set_1a.csv')
+test_set_1a['level'] = test_set_1a['level'].replace({'small':1,'medium':2,'large':3})
 test_set_1a
+
+## Export to csv 
+test_set_1a.reset_index(drop=True).to_csv('./data/test_set_1a.csv')
+test_set_1a
+
