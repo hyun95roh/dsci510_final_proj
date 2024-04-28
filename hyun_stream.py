@@ -278,6 +278,9 @@ elif page == 'Analysis':
     
     fig.update_layout(mapbox_style="open-street-map") # You can change map style
     st.write(fig)
+    st.markdown('The bigger circle indicates the larger number of job openings. It seems that N.Y. has larger opportunities')
+    st.markdown('The color states that as it get brighter the higher average prevailing wage. Los Angeles has smaller job openings but the expected salary level is the highest among the three cities')
+
 
     ### Draw Stacked boxplot  
     st.write('The segment table below tells the distribution of wage_level and engineer title by each city.')
@@ -301,9 +304,9 @@ elif page == 'Analysis':
                     title='Stacked Bar Chart with Color') 
     
     st.plotly_chart(fig) 
+    st.markdown('Among the wage level, level 2 has largest share in all cities.')
+    st.markdown('Remind: The linear model trained earlier argues that the wage increases $21,230 per one notch increase of the PW_WAGE_LEVEL') 
 
-    st.markdown('The bigger circle indicates the larger number of job openings. It seems that N.Y. has larger opportunities')
-    st.markdown('The color states that as it get brighter the higher average prevailing wage. Los Angeles has smaller job openings but the expected salary level is the highest among the three cities')
 
         
     ## A2_3
