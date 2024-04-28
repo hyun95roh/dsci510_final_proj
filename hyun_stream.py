@@ -2,8 +2,8 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np
-import plotly.graph_objs as go
-import plotly.express as px
+#import plotly.graph_objs as go
+#import plotly.express as px
 from sklearn import linear_model
 #from Hyuntae_Roh_proj2 import test_set_1a, test_set_1b, train_set_1a, train_set_1b 
 import time 
