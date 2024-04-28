@@ -6,3 +6,4 @@ scikit-learn
 requests
 fuzzywuzzy 
 bs4
+statsmodels

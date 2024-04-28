@@ -5,6 +5,7 @@ import numpy as np
 import plotly.graph_objs as go
 import plotly.express as px
 from sklearn import linear_model
+import statsmodels.api as sm
 #from Hyuntae_Roh_proj2 import test_set_1a, test_set_1b, train_set_1a, train_set_1b 
 import time 
 
@@ -13,6 +14,11 @@ train_set_1b = pd.read_csv('./data/train_set_1b.csv')
 train_set_1a = pd.read_csv('./data/train_set_1a.csv') 
 test_set_1b = pd.read_csv('./data/test_set_1b.csv')
 test_set_1a = pd.read_csv('./data/test_set_1a.csv') 
+# Split train/test data 
+X_train = train_set_1a.iloc[:,1:-1]
+Y_train = train_set_1a.iloc[:,-1]
+X_test = test_set_1a.iloc[:,1:-1]
+Y_test = test_set_1a.iloc[:,-1]
 
 
 # Table of Content
@@ -28,8 +34,55 @@ if page == 'Home':
     # HOME: DSCI-510 Final Project  
     designed by Hyuntae Roh 
     '''
+    st.markdown('There are eight information demanded by the rubric. Please click the tabs beneath')
+    tab1, tab2 = st.tabs(['Info #1~#3','Info #4~#8'])
 
-    st.title('Collect your raw data')
+    with tab1:
+        '''
+        1.	Your name : Hyuntae Roh (USC_ID: 1232-2787-56)
+        \n 2.	An explanation of how to use your webapp: 
+        \n  My app is simple and straight-forward. All you need is to read each page in the order of contents on sidebar.
+        \n    -  Interactivity : You can use st.multiselect(), st.select_slider(),and etc to change filter option.
+        \n    -  Charts:
+        \n        a) scatter_mapbox(plotly): You can easily recognize and compare which city has more job openings and higher average income.
+        \n        b) stacked bar plot(plotly): From this chart, readers can breakdown the number of job openings of each city by wage_level and engineer_title.
+        \n 3.	Any major “gotchas” (i.e. things that don’t work, go slowly, could be improved, etc.):
+        \n    - Occasionally, streamlit cloud gives me a error message:'You do not have access to this app or it does not exist' It seems the issue attribute to the unstableness of streamlit cloud. 
+
+        '''
+
+    with tab2: 
+        '''
+        \n 4.	What did you set out to study?  (i.e. what was the point of your project?) :
+        \n   - Please check the <Analysis> page where I clearly answered this.
+
+        \n 5.	What did you Discover/what were your conclusions (i.e. what were your findings?  Were your original assumptions confirmed, etc.?)
+        \n   - It turned out that if the name of position has 'Engineer', then the salary increases $10,930.
+        \n   - The wage prediction from my linear model turned out that the average prevailing salary of L.A. and S.F. is higher than N.Y., which opposes to my original hypothesis. 
+        One of the reason is that the cost-of-living index of west coast is 18%p lower than N.Y in average.  
+        \n   - However N.Y. wins when it comes to the number of job openings.  
+
+        \n 6.	What difficulties did you have in completing the project?  
+        \n   - The first obstacle that stressed me out was inner join between two tables using company_name as a key. Since the two tables have different style on the identical company name,
+        I had to build a function that scores similarity between two names. The next problem was the trade-off between cut-off accuracy and the number of outputs. 
+        If I set the higher accuracy, the number of outputs decreased. This trade-off problem is still remaining.    
+        \n   - When I deployed my app on the streamlit cloud, unexpected error happened: 'ModuleNotFoundError'. For the very first 2-3 hours, I struggled to figure out the resolution. 
+        And finally, I realized that the problem was due to requirement.txt, which include unnecessary paths and redundant library information, and I could smoothly deploy my app right after simplifying requirement.txt. 
+        
+        \n 7.	What skills did you wish you had while you were doing the project?
+        \n   - The first learning goal, understadning and programming in modular structure, was accomplished. 
+        \n However, there is something to be desired as of second goal: more advance skills with Numpy, Pandas, and streamlit. This requires more practice and effort. 
+
+        \n 8.	What would you do “next” to expand or augment the project?    
+        \n   - Please check 'Part1.Q3' on the <Analysis> page. 
+        \n   - On top of that, I want to expand the research tasks into many machine learning algorithm other than linear regression. Maybe non-linear classification would be a nice sequel.
+        '''
+
+
+elif page == 'Data and Preprocessing':
+    ## Step1----------------------------------------
+    st.markdown('# Step1: Data collection and Pre-processing :ear_of_rice:')
+    st.markdown('## Collect your raw data')
     '''
     To save your precious time, this application is using pre-runned outcome of raw data collecting process.\n
     If you want to run the collecting process again, please click this button to collect raw data again\n
@@ -50,9 +103,7 @@ if page == 'Home':
 
     st.write('The process may take 10-20 mintues.') 
 
-elif page == 'Data and Preprocessing':
-    ## Step1----------------------------------------
-    st.markdown('# Step1: Data collection and Pre-processing :ear_of_rice:')
+    st.markdown("---")
     st.write('Here is a brief summary of collected data') 
     data_summary = {"Name": ['Data_1', 'Data_2', 'Data_3', 'Data_4'], 
                     "Content": ['Job posts','Cost of Living','H-1b LCA','Company Info'],
@@ -64,7 +115,7 @@ elif page == 'Data and Preprocessing':
     st.write(data_sum) 
 
     st.write('For example, Data_1 is collected and pre-processed by the following codes')
-    with open('./Hyuntae_Roh_proj2.py','r') as file: 
+    with open('./Hyuntae_Roh_proj2.py','r',errors='ignore') as file: 
         lines = file.readlines()[9:165] 
     data1_code = ''.join(lines)
 
@@ -153,7 +204,29 @@ elif page == 'Analysis':
     h1b_count_2 = h1b_count_2.round(1).sort_values('JOB_TITLE',ascending=False) 
     st.write(h1b_count_2) 
 
+    ##A1_3.
+    st.markdown("(Q3) Let's check out whether the 'Enginner' position has premium. Report training result using statmodels. Can you see statistical meaning?")
+    '''
+    - It turned out that if the name of position has 'Engineer', then the salary increases $10,930. The P-value is near to 0, which means statistically significant. 
+    - The wage prediction from my linear model turned out that the average prevailing salary of L.A. and S.F. is higher than N.Y., which opposes to my original hypothesis. 
+    One of the reason is that the cost-of-living index of west coast is about 15%p lower than N.Y in average.  
+    - However N.Y. wins when it comes to the number of job openings.  
+    '''
 
+
+    X_train_const = sm.add_constant(X_train)
+    model_stat = sm.OLS(Y_train, X_train_const).fit()
+    st.write(model_stat.summary())
+    '''
+    However, the model should be carefully interpreted, as it seems there is some multi-collinearity; Durbin-Watson value close to 0 infers a possitive correlation between features.
+    Also, JB scores that far from zero is indicating that the distribtution of error term does not follow gaussian.
+    Severe multi-collinearity damages the interpretability because the estimated coefficient becomes unstable.  
+    Also non-gaussian distribution breaks the assumption of OLS, so statistical significance may turn out overshooting or undershooting.
+    \n I'll leave the remedies for the future task. Statistical correction is not the scope of this course. 
+    '''
+
+
+    #===========================================================
     #Part 2=====================================================  
     st.markdown('## Part 2. Job posts and wage prediction')
     ## A2_1
@@ -168,12 +241,6 @@ elif page == 'Analysis':
         st.write(f"Shape of data : {train.shape}")
         st.write(train)     
     
-
-    # Split train/test data 
-    X_train = train_set_1a.iloc[:,:-1]
-    Y_train = train_set_1a.iloc[:,-1]
-    X_test = test_set_1a.iloc[:,:-1]
-    Y_test = test_set_1a.iloc[:,-1]
 
     # Model Training  
     model= linear_model.LinearRegression() 
@@ -246,7 +313,7 @@ elif page == 'Analysis':
 
 elif page == 'Code': 
     st.title('Entire code behind this app')
-    with open('Hyuntae_Roh_proj2.py','r') as file: 
+    with open('Hyuntae_Roh_proj2.py','r',errors='ignore') as file: 
         my_code = file.read() 
 
     st.code(my_code,language='python')
