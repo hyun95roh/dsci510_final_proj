@@ -1,4 +1,3 @@
-pip freeze > requirements.txt
 # Preset ---------------------------------------------------------------------------------------
 import streamlit as st
 import pandas as pd 
