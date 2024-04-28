@@ -3,7 +3,6 @@ import pandas as pd
 import re 
 from fuzzywuzzy import fuzz
 from bs4 import BeautifulSoup
-from pprint import pprint
 
 # ==============================================================================================================
 # Data 1(API data) collect =====================================================================================
